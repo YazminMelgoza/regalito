@@ -1,0 +1,208 @@
+:root {
+    --light-purple: rgb(250, 238, 252);
+    --light-blue: #d4e5ff;
+    --light-green: rgb(227, 255, 227);
+    --light-yellow: rgb(247, 247, 228);
+    --light-pink: rgb(247, 207, 246);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+}
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Fleur De Leah', cursive;
+font-family: 'Meow Script', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.section {
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+}
+nav {
+    position: fixed;
+    background-color: rgb(210, 168, 252);
+    width: 100%;
+    font-weight: bold;
+    z-index: 10;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+#start {
+opacity: 0.8;
+background-image:  linear-gradient(#ffffff 3.1px, transparent 3.1px), linear-gradient(to right, #ffffff 3.1px, var(--light-purple) 3.1px);
+background-size: 62px 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(47, 31, 79)
+}
+.cursiva {
+    font-family: 'Meow Script', cursive;
+    font-weight: 600;
+}
+
+h1 .cursiva {
+    font-size: 5rem;
+}
+.mayuscula {
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+    font-weight: 200;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#foto1 {
+    background-image: url(./../img/fondo\ \(9\).png);
+}
+#foto2 {
+    background-image: url(./../img/fondo\ \(13\).png);
+}
+
+#foto3  {
+    background-image: url(./../img/fondo\ \(16\).png);
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 40rem;
+}
+.window {
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    height: 20rem;
+}
+nav li {
+    display: inline-block;
+    color:white;
+}
+a {
+    text-decoration: none;
+    
+}
+a:visited {
+    color: inherit;
+}
+
+#flor-superior {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    transform: rotate(250deg);
+    width: 7rem;
+}
+#flor-inferior {
+    width: 10rem;
+    position: absolute;
+    right: 0;
+    bottom: 0rem;
+    transform: rotate(90deg);
+}
+
+.content {
+    position:relative;
+    width: 95%;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+hr {
+    width: 50%;
+    max-width: 20rem;
+    border: 2px solid rgb(47, 31, 79);
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+#date {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#cartita {
+    background: linear-gradient(to bottom, var(--light-blue), var(--light-green) 150%);
+}
+
+#musica {
+    background: linear-gradient(to bottom, var(--light-blue) -100%, var(--light-green) 50%, var(--light-yellow) 150%);
+}
+
+#videos {
+    background: linear-gradient(to bottom, var(--light-green) -50%, var(--light-yellow) 50%, var(--light-pink) 150%);
+}
+
+#fotitos {
+    background: linear-gradient(to bottom, var(--light-yellow) -50%, var(--light-pink) 50%);
+
+}
+
+#palabritas {
+    color: rgb(66, 87, 136);
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#cartita hr {
+    border: 2px solid rgb(66, 87, 136);
+}
+.subtitulo {
+    font-size: 2.5rem;
+    display: block;
+    margin-top: 4rem;
+    text-align: center;
+}
+#musica hr {
+    border: 2px solid rgb(43, 85, 43);
+
+}
+#musica {
+    color: rgb(43, 85, 43);
+    text-align: center;
+}
+
+.firma {
+    font-size: 2rem;
+}
+
+#unirse {
+    background-color: rgb(29, 191, 59);
+    color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    font-family: "Montserrat";
+    border: none;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+#unirse:hover {
+    cursor:pointer;
+}
+
+#videos iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#videos span {
+    color:rgb(85, 79, 43)
+}
+
+#videos hr {
+    border-color:rgb(85, 79, 43);
+}
