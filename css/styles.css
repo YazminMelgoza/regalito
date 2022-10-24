@@ -206,3 +206,7 @@ hr {
 #videos hr {
     border-color:rgb(85, 79, 43);
 }
+
+nav a {
+    color: inherit;
+}
