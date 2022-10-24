@@ -146,7 +146,7 @@ hr {
 }
 
 #fotitos {
-    background: linear-gradient(to bottom, var(--light-yellow) -50%, var(--light-pink) 50%);
+    background: linear-gradient(to bottom, var(--light-yellow) -50%, var(--light-pink) 50%, rgb(228, 137, 198));
 
 }
 
@@ -208,5 +208,59 @@ hr {
 }
 
 nav a {
-    color: inherit;
+    color: white;
+}
+
+img[src^='./img/monito'] {
+    height: 9rem;
+    display: inline-block;
+}
+#cartita {
+    height: fit-content;
+}
+
+#fotitos p {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+#fotitos {
+    height:fit-content;
+}
+
+#videos {
+    height: fit-content;
+}
+
+#fotitos .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ramito-florecitas {
+    width: 15rem;
+    margin-bottom: 3rem;
+}
+#sonrisita {
+    display: inline-block;
+    margin: 0 8rem;
+}
+#cartita .content {
+    position: relative;
+}
+
+#flor-azul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 6rem;
+}
+#flor-rosa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    transform: rotate(-210deg);
 }
